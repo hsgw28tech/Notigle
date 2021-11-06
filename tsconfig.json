@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "typeRoots": ["/src/@types"],
+    "lib": ["es2015", "dom", "ES2020"]
+  },
+  "include": ["src/**/*", "lib/**/*"],
+  "exclude": [],
+  "target": "ES5",
+  "outDir": "./dist",
+  "allowJs": true,
+  "declarationMap": true,
+  "sourceMap": true,
+  "rootDir": "src",
+  "jsx": "react",
+  "incremental": true,
+  "removeComments": true,
+  "moduleResolution": "node",
+  "module": "ES2015",
+  "esModuleInterop": true,
+  "noUnusedLocals": true,
+  "noUnusedParameters": true,
+  "noImplicitReturns": true,
+  "noFallthroughCasesInSwitch": true,
+  "forceConsistentCasingInFileNames": true
+}
